@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="Test-Runner1(failed)">
+    <classes>
+      <class name="testNG_Practice.DD_AddingToCart_POMusingBC">
+        <methods>
+          <include name="amConfig"/>
+          <include name="asConfig"/>
+          <include name="bcConfig"/>
+          <include name="bmConfig"/>
+          <include name="bsConfig"/>
+          <include name="tc_AddingToCart"/>
+          <include name="acConfig"/>
+        </methods>
+      </class> <!-- testNG_Practice.DD_AddingToCart_POMusingBC -->
+    </classes>
+  </test> <!-- Test-Runner1(failed) -->
+  <test thread-count="2" parallel="tests" name="Test-Runner2(failed)">
+    <classes>
+      <class name="testNG_Practice.ValidateProduct_POMusingBC">
+        <methods>
+          <include name="amConfig"/>
+          <include name="asConfig"/>
+          <include name="bmConfig"/>
+          <include name="bcConfig"/>
+          <include name="bsConfig"/>
+          <include name="acConfig"/>
+          <include name="validateProduct"/>
+        </methods>
+      </class> <!-- testNG_Practice.ValidateProduct_POMusingBC -->
+    </classes>
+  </test> <!-- Test-Runner2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

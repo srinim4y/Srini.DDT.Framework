@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-03T16:23:27 IST" name="Default suite" finished-at="2026-04-03T16:23:34 IST" duration-ms="6415">
+    <groups>
+    </groups>
+    <test started-at="2026-04-03T16:23:27 IST" name="Default test" finished-at="2026-04-03T16:23:34 IST" duration-ms="6415">
+      <class name="testNG_Practice.DD_AddingToCart_POMusingBC">
+        <test-method is-config="true" signature="bsConfig()[pri:0, instance:testNG_Practice.DD_AddingToCart_POMusingBC@2aceadd4]" started-at="2026-04-03T16:23:27 IST" name="bsConfig" finished-at="2026-04-03T16:23:27 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bsConfig -->
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:testNG_Practice.DD_AddingToCart_POMusingBC@2aceadd4]" started-at="2026-04-03T16:23:27 IST" name="bcConfig" finished-at="2026-04-03T16:23:29 IST" duration-ms="1905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:testNG_Practice.DD_AddingToCart_POMusingBC@2aceadd4]" started-at="2026-04-03T16:23:29 IST" name="bmConfig" finished-at="2026-04-03T16:23:30 IST" duration-ms="390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="tc_AddingToCart()[pri:0, instance:testNG_Practice.DD_AddingToCart_POMusingBC@2aceadd4]" started-at="2026-04-03T16:23:30 IST" name="tc_AddingToCart" finished-at="2026-04-03T16:23:33 IST" duration-ms="3266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_AddingToCart -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:testNG_Practice.DD_AddingToCart_POMusingBC@2aceadd4]" started-at="2026-04-03T16:23:33 IST" name="amConfig" finished-at="2026-04-03T16:23:33 IST" duration-ms="387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:testNG_Practice.DD_AddingToCart_POMusingBC@2aceadd4]" started-at="2026-04-03T16:23:33 IST" name="acConfig" finished-at="2026-04-03T16:23:34 IST" duration-ms="419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+        <test-method is-config="true" signature="asConfig()[pri:0, instance:testNG_Practice.DD_AddingToCart_POMusingBC@2aceadd4]" started-at="2026-04-03T16:23:34 IST" name="asConfig" finished-at="2026-04-03T16:23:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asConfig -->
+      </class> <!-- testNG_Practice.DD_AddingToCart_POMusingBC -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
