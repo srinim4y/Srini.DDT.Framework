@@ -13,7 +13,7 @@ public class SampleTestFunc extends BaseTest
 	
 	public void addProductTest()
 	{
-		Assert.fail();
+		Assert.fail();//making this fail forcefully
 		System.out.println("Add");
 	}
 	
