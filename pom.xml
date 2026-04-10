@@ -17,7 +17,7 @@
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
     <version>4.41.0</version>
-    <scope>compile</scope>
+   <!--<scope>compile</scope> -->  <!--we are removing manually to avoid the compile issues in Jenkins--> 
 </dependency>
 
 <!-- Source: https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
@@ -25,7 +25,7 @@
     <groupId>com.googlecode.json-simple</groupId>
     <artifactId>json-simple</artifactId>
     <version>1.1.1</version>
-    <scope>compile</scope>
+   
 </dependency>
 
 <!-- Source: https://mvnrepository.com/artifact/org.apache.poi/poi -->
@@ -33,7 +33,7 @@
     <groupId>org.apache.poi</groupId>
     <artifactId>poi</artifactId>
     <version>5.4.1</version>
-    <scope>compile</scope>
+   
 </dependency>
 
 <!-- Source: https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
@@ -41,7 +41,7 @@
     <groupId>org.apache.poi</groupId>
     <artifactId>poi-ooxml</artifactId>
     <version>5.4.1</version>
-    <scope>compile</scope>
+   
 </dependency>
 
 <!-- Source: https://mvnrepository.com/artifact/com.mysql/mysql-connector-j -->
@@ -49,15 +49,16 @@
     <groupId>com.mysql</groupId>
     <artifactId>mysql-connector-j</artifactId>
     <version>9.6.0</version>
-    <scope>compile</scope>
+    
 </dependency>
 
+<!-- Source: https://mvnrepository.com/artifact/org.testng/testng -->
 <!-- Source: https://mvnrepository.com/artifact/org.testng/testng -->
 <dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
-    <version>7.12.0</version>
-    <scope>test</scope>
+    <version>7.4.0</version>
+   
 </dependency>
 
 <!-- Source: https://mvnrepository.com/artifact/com.aventstack/extentreports -->
@@ -65,7 +66,7 @@
     <groupId>com.aventstack</groupId>
     <artifactId>extentreports</artifactId>
     <version>5.1.2</version>
-    <scope>compile</scope>
+    
 </dependency> 
 
 
