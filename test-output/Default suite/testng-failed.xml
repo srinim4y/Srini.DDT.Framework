@@ -3,18 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNG_Practice.SampleTestFunc">
+      <class name="testNG_Practice.ValidateProduct_POMusingBC">
         <methods>
-          <include name="asConfig"/>
           <include name="amConfig"/>
-          <include name="bcConfig"/>
+          <include name="asConfig"/>
           <include name="bmConfig"/>
-          <include name="addProductTest"/>
+          <include name="bcConfig"/>
           <include name="bsConfig"/>
-          <include name="updateProductTest"/>
           <include name="acConfig"/>
+          <include name="validateProduct"/>
         </methods>
-      </class> <!-- testNG_Practice.SampleTestFunc -->
+      </class> <!-- testNG_Practice.ValidateProduct_POMusingBC -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

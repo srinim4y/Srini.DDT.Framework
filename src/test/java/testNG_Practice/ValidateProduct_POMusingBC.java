@@ -24,7 +24,10 @@ public class ValidateProduct_POMusingBC extends BaseTest{
 	{
 		// TODO Auto-generated method stub
 
+		
 		String PRODUCT = fUtil.readDataFromExcel("Products", 1, 2);
+		
+		
 		
 		HomePage hp = new HomePage(driver);
 		String con1 = hp.getProductText(PRODUCT, driver);
