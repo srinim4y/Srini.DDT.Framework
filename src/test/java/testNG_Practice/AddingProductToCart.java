@@ -5,6 +5,7 @@ import java.io.IOException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -22,7 +23,7 @@ public class AddingProductToCart
 	public void addToCartTest(String PRODUCT) throws IOException
 	{
 		
-		WebDriver driver = new EdgeDriver();
+		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.saucedemo.com/");
 		
 		FileUtility fu = new FileUtility();

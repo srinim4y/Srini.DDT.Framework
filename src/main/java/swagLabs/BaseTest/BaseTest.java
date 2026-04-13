@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
@@ -50,6 +51,16 @@ public class BaseTest
 		if (BROWSER.equalsIgnoreCase("Chrome"))
 		{
 			driver = new ChromeDriver();
+			
+			ChromeOptions options = new ChromeOptions();
+
+	        // Enable Incognito mode
+	        options.addArguments("--incognito");
+	        options.addArguments("--disable-features=PasswordLeakDetection");
+
+	        driver = new ChromeDriver(options);
+	        
+			
 		}
 		else if (BROWSER.equalsIgnoreCase("edge"))
 		{
@@ -84,6 +95,8 @@ public class BaseTest
 		
 		LoginPage lp = new LoginPage(driver);
 		lp.loginToApp(USERNAME, PASSWORD);
+		
+		
 		
 		System.out.println("Login to App is successful");
 		
