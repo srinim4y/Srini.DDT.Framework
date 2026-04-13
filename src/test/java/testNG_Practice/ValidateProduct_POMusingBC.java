@@ -55,7 +55,7 @@ public class ValidateProduct_POMusingBC extends BaseTest{
 		 //or
 		//assertTrue(con1.equals(con2));
 		
-		
+		//dummy line testing for Jenkins scheduling job SCM
 	}
 
 }
