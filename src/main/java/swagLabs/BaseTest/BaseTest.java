@@ -52,9 +52,8 @@ public class BaseTest
 		{
 			driver = new ChromeDriver();
 			
+			// Enable Incognito mode and avoid any google password alerts
 			ChromeOptions options = new ChromeOptions();
-
-	        // Enable Incognito mode
 	        options.addArguments("--incognito");
 	        options.addArguments("--disable-features=PasswordLeakDetection");
 
