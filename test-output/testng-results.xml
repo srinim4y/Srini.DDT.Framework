@@ -1,63 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="1" total="5" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-17T23:25:45 IST" name="Default suite" finished-at="2026-04-17T23:25:53 IST" duration-ms="8267">
+  <suite started-at="2026-04-21T12:20:28 IST" name="Default suite" finished-at="2026-04-21T12:20:29 IST" duration-ms="638">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerClass.RunnerIO@65d09a04]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2026-04-17T23:25:45 IST" name="Default test" finished-at="2026-04-17T23:25:53 IST" duration-ms="8267">
-      <class name="runnerClass.RunnerIO">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runnerClass.RunnerIO@65d09a04]" started-at="2026-04-17T23:25:45 IST" name="setUpClass" finished-at="2026-04-17T23:25:45 IST" duration-ms="486" status="PASS">
+    <test started-at="2026-04-21T12:20:28 IST" name="Default test" finished-at="2026-04-21T12:20:29 IST" duration-ms="638">
+      <class name="testNG_Practice.DatProviderTest">
+        <test-method signature="addProductToCartTest(java.lang.String)[pri:0, instance:testNG_Practice.DatProviderTest@3857f613]" started-at="2026-04-21T12:20:29 IST" name="addProductToCartTest" data-provider="SauceLabs Products" finished-at="2026-04-21T12:20:29 IST" duration-ms="7" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@23a5818e]]>
+                <![CDATA[Sauce Labs Bolt T-Shirt]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerClass.RunnerIO@65d09a04]" started-at="2026-04-17T23:25:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-04-17T23:25:51 IST" duration-ms="5530" status="PASS">
+        </test-method> <!-- addProductToCartTest -->
+        <test-method signature="addProductToCartTest(java.lang.String)[pri:0, instance:testNG_Practice.DatProviderTest@3857f613]" started-at="2026-04-21T12:20:29 IST" name="addProductToCartTest" data-provider="SauceLabs Products" finished-at="2026-04-21T12:20:29 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Add product to Cart"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Add product To Cart"]]>
+                <![CDATA[Sauce Labs Backpack]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerClass.RunnerIO@65d09a04]" started-at="2026-04-17T23:25:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-04-17T23:25:53 IST" duration-ms="2202" status="PASS">
+        </test-method> <!-- addProductToCartTest -->
+        <test-method signature="addProductToCartTest(java.lang.String)[pri:0, instance:testNG_Practice.DatProviderTest@3857f613]" started-at="2026-04-21T12:20:29 IST" name="addProductToCartTest" data-provider="SauceLabs Products" finished-at="2026-04-21T12:20:29 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Add product to Cart With checkout"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Add product To Cart"]]>
+                <![CDATA[Sauce Labs Bike Light]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runnerClass.RunnerIO@65d09a04]" started-at="2026-04-17T23:25:53 IST" name="tearDownClass" finished-at="2026-04-17T23:25:53 IST" duration-ms="17" status="PASS">
+        </test-method> <!-- addProductToCartTest -->
+        <test-method signature="addProductToCartTest(java.lang.String)[pri:0, instance:testNG_Practice.DatProviderTest@3857f613]" started-at="2026-04-21T12:20:29 IST" name="addProductToCartTest" data-provider="SauceLabs Products" finished-at="2026-04-21T12:20:29 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sauce Labs Fleece Jacket]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- runnerClass.RunnerIO -->
+        </test-method> <!-- addProductToCartTest -->
+      </class> <!-- testNG_Practice.DatProviderTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

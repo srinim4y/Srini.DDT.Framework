@@ -76,4 +76,32 @@ public class FileUtility
 		return value;
 	}
 
+	/**
+	 * This method will read multiple data from Excel and provide it to dataprovider
+	 * @param sheetname
+	 * @return
+	 * @throws EncryptedDocumentException
+	 * @throws IOException
+	 */
+	public Object[][] readMultipledata(String sheetname) throws EncryptedDocumentException, IOException
+	{
+		FileInputStream fis = new FileInputStream(".\\src\\test\\resources\\TestData.xlsx");
+	    Workbook wb = WorkbookFactory.create(fis);
+	    
+	    int lastRow = wb.getSheet(sheetname).getLastRowNum();
+	    int lastcell = wb.getSheet(sheetname).getRow(0).getLastCellNum();
+	  
+	    Object[][] data = new Object[lastRow][lastcell];
+	    
+		for(int i=0; i<lastRow ;i++)
+	    {
+	    	for(int j=0;j<lastcell;j++)
+	    	{
+	    		data[i][j] = wb.getSheet(sheetname).getRow(i+1).getCell(j).getStringCellValue();
+	    	}
+	    }
+	    
+	    return data;
+	}
+	
 }
