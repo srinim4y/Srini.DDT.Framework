@@ -3,13 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="runnerClass.RunnerIO">
+      <class name="testNG_Practice.AddToProduct_usingDataProvider">
         <methods>
-          <include name="setUpClass"/>
-          <include name="runScenario" invocation-numbers="1 2 3"/>
-          <include name="tearDownClass"/>
+          <include name="amConfig"/>
+          <include name="asConfig"/>
+          <include name="bcConfig"/>
+          <include name="bmConfig"/>
+          <include name="bsConfig"/>
+          <include name="acConfig"/>
+          <include name="tc_01_AddProductToCartTest"/>
         </methods>
-      </class> <!-- runnerClass.RunnerIO -->
+      </class> <!-- testNG_Practice.AddToProduct_usingDataProvider -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,7 +1,12 @@
 package testNG_Practice;
 
+import java.io.IOException;
+
+import org.apache.poi.EncryptedDocumentException;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+import swagLabs.GenericUtilities.FileUtility;
 
 public class DatProviderTest 
 {
@@ -27,6 +32,20 @@ public class DatProviderTest
 		data[1][2] = false;
 		return data;
 		
+	}
+	
+	@Test(dataProvider = "SauceLabs Products")
+	public void addProductToCartTest(String name)
+	{                                    
+		
+		System.out.println("Data is - "+name);
+	}
+	
+	@DataProvider(name = "SauceLabs Products")
+	public Object[][] getProdNames() throws EncryptedDocumentException, IOException
+	{
+		FileUtility fUtil = new FileUtility();
+		return fUtil.readMultipledata("MultipleProducts");
 	}
 	
 }
